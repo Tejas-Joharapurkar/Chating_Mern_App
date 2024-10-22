@@ -1,0 +1,44 @@
+.main-home-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    border: 2px solid green;
+}
+
+/* ! childs of main-home-container ---------------------------------------------------------*/
+.side-bar {
+    width: 100%;
+    border: 2px solid white;
+    flex: 1;
+}
+
+.chat-section {
+    width: 100%;
+    border: 2px solid red;
+    flex: 3;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+}
+
+/* ! childs of main-home-container ---------------------------------------------------------*/
+
+/* ! childs of side-bar --------------------------------------------------------------------*/
+
+.search-bar {}
+
+.friends-section {}
+
+/* ! childs of side-bar --------------------------------------------------------------------*/
+
+/* ! childs of chat-section ----------------------------------------------------------------*/
+
+.navbert {}
+
+.message-section {}
+
+.type-section {}
+
+/* ! childs of chat-section ----------------------------------------------------------------*/
